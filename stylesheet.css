@@ -1,0 +1,165 @@
+    /* Cabeçalho */
+    .header {
+        background-color: #F7F7F2;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        padding: 20px 0;
+        box-shadow: 0 2px 3px rgba(12, 12, 12, 0.281);
+      }
+  
+      .header img {
+        max-width: 150px;
+      }
+  
+      body {
+        background-image: url(./Designsemnome.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #F7F7F2;
+      }
+  
+      /* Seção principal */
+      .title-1 {
+        font-size: 42px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+  
+      .divider {
+        width: 100%;
+        height: 1px;
+        background-color: #ccc;
+        margin: 40px 0;
+      }
+  
+      .button1 {
+        margin: 10px;
+        background-color: #3BC14A;
+        color: #F7F7F2;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+        transition: all 0.3s ease;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+  
+      .button1:hover {
+        background-color: #2f8d3a;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+  
+      .button2 {
+        margin-top: 0px;
+        background-color: #F7F7F2;
+        color: #000000;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+        transition: all 0.3s ease;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+  
+      .button2:hover {
+        background-color: #dfdfdb;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+  
+      .description-1 {
+        font-size: 20px;
+        margin-bottom: 40px;
+      }
+  
+      .title-2 {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+  
+      .recursos {
+        margin-top: 100px;
+        margin-bottom: 10px;
+        color: #fff;
+        background-color: #ffffff23;
+        border-radius: 8px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 20px;
+      }
+  
+      /* Rodapé */
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+      }
+  
+      footer p {
+        font-size: 18px;
+        margin-bottom: 0;
+      }
+  
+      .float{
+      position:fixed;
+      width:70px;
+      height:70px;
+      bottom:20px;
+      right:25px;
+      background-color:#0cb114;
+      color:#FFF;
+      border-radius:50px;
+      text-align:center;
+    font-size:40px;
+      box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    transition: transform 0.5s;
+    transform: translateX(0.5) scale(0.8);
+    box-shadow: 0px 5px 10px 0px #646464;
+      -webkit-box-shadow: 0px 5px 15px 0px #3f3f3f;
+  }
+  
+  .float:hover{
+    color: #FFF;
+    background-color: rgb(21, 158, 9);
+    transform: translateX(10px) scale(1.0);
+  }
+  
+  .my-float{margin-top:16px;}
+  
+  .RVEQke{
+      background-color: rgb(58 183 61) !important;
+  }
+  
+  /* Google form mobile */
+  @media screen and (min-width:590px) {
+  iframe[src*="https://docs.google.com/forms/d/e/1FAIpQLSdH8BJNap1UpPHNi78-95qBVXyIHD20SfWk4tbub_UVIotfDg/viewform?embedded=true"] {
+      width: 100% !important;
+      height: 900px;
+  }
+
+  body{
+    background-size: 100%;
+    background-image: url(./Designsemnome.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+  /* Google form mobile */
+  @media screen and (max-width:589px) {
+    body{
+      background-color: #150811; 
+      object-fit: cover;
+    }
+  }
